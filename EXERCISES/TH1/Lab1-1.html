@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Example</title>
+</head>
+<style>
+    *{
+        margin: 90px auto 100px;
+        width: 75%;
+    }
+    table, td{
+        border: 1px solid;
+    }
+    #header{
+        height: 50px;
+        background-color: lightgray;
+    }
+    h3{
+        font-size: xx-large;
+        text-align:left;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    #footer{
+        height: 30px;
+        text-align: center;
+        background-color: darkgray ;
+    }
+    #body .menu{
+        height: 250px;
+        width: 25%;
+        vertical-align: top;
+        background-color: #fde5a1 ;
+    }
+    ul, li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    #body .content{
+        width: 75%;
+        vertical-align: top;
+        background-color: white;
+    }
+    #body .content p{
+        padding: 0;
+        margin: 0;
+    }
+
+
+</style>
+<body>
+<table>
+    <tr id="header">
+        <td colspan="2">
+            <h3>PROCESS LAYOUT EXAMPLE</h3>
+        </td>
+    </tr>
+    <tr id="body">
+        <td class="menu">
+            <ul>
+                <li><b>Main Menu</b></li>
+                <li>Link one</li>
+                <li>Link two</li>
+                <li>Link three</li>
+                <li>Link four</li>
+            </ul>
+        </td>
+        <td class="content">
+            <p>This is an example layout using the tables</p>
+        </td>
+    </tr>
+    <tr id="footer">
+        <td colspan="2">www.Example of layout using tables.com</td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout Example2</title>
+</head>
+<style>
+  *{
+    box-sizing: border-box;
+  }
+  #table {
+    max-width: 800px;
+    margin: 100px auto;
+    border-width: medium;
+  }
+ div h3 {
+    text-align: center;
+  }
+   #header {
+    height: 50px;
+    border: 1px solid;
+    border-bottom: none;
+  }
+  #nav {
+    height: 50px;
+    border: 1px solid;
+    border-bottom: none;
+  }
+  #ind-cont {
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    border-bottom: none;
+  }
+  #index{
+    border-right: 1px solid;
+    width: 120px;
+    padding: 65px 10px;
+  }
+  #content{
+    text-align: center;
+    padding: 65px 195px;
+  }
+  #footer {
+    height: 100px;
+    border: 1px solid;
+    padding-top: 28px;
+  }
+</style>
+<body>
+  <div id="table">
+    <div id="header">
+      <h3>Header Section</h3>
+    </div>
+    <div id="nav">
+      <h3>Navigation Bar</h3>
+    </div>
+    <div id="ind-cont">
+      <div id="index">
+        <h3>Index</h3>
+      </div>
+      <div id="content">
+        <h3>Content Section</h3>
+      </div>
+    </div>
+    <div id="footer">
+      <h3>Footer Section</h3>
+    </div>
+  </div>
+</body>
+</html>
