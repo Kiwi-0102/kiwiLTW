@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Tahoma, Arial,sans-serif;
+}
+#container{
+    width: 1100px;
+    min-height: 400px;
+    margin: auto;
+}
+#container nav .menu{
+    background: #eeeeee;
+    border-left: 5px solid #8b0000 ;
+    border-bottom: 2px solid #8b0000 ;
+    overflow: auto;
+}
+#container nav .menu .item{
+    float: left;
+    padding: 20px;
+    font-size: 120%;
+    cursor: pointer;
+}
+#container nav .menu .item:hover{
+    background: #8b0000;
+    color: #ffffff;
+}
+#container nav .menu .item .sub-menu{
+    position: absolute;
+    background: #eeeeee;
+    color: #0e0e0e;
+    display: none;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+#container nav .menu .item:hover .sub-menu{
+    display: block;
+    border-top: 2px solid #8b0000;
+}
+#container nav .menu .item  .sub-menu .item{
+    float: none;
+    border-bottom: 2px solid #bebebe;
+    font-size: small;
+}

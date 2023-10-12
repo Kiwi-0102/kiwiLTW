@@ -6,12 +6,6 @@ body{
     margin: 0;
     padding: 0;
 }
-a{
-
-}
-p{
-
-}
 #page{
     background: white;
 }
@@ -62,7 +56,6 @@ p{
 }
 #section_normal_4_2 .omega{
     padding-top: 55px;
-
 }
 .blue_text{
     font-weight: 600;
@@ -84,12 +77,12 @@ p{
 }
 .btn_normal{
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 650;
     font-size: small;
     padding: 12px;
     color: #eeeeee;
     text-align: center;
-    background-color: hsl(192.83deg 80.26% 54.31%);
+    background-color: #2dbfe7;
     border-radius: 2px;
 }
 /****************************************************************/
@@ -129,7 +122,6 @@ p{
     width: 48%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: #fff;
     padding: 0;
     margin: 0;
@@ -137,14 +129,12 @@ p{
 }
 .box_1 {
     margin-top: 30px !important;
-    margin-right: 10px !important;
+    margin-right: 20px !important;
 }
-
 .box_2 {
     margin-top: 30px !important;
     margin-left: 10px !important;
 }
-
 .b_style {
     padding: 16px 8px;
     margin-right: 8px;
@@ -159,23 +149,16 @@ p{
 .env_st .pix_text {
     color: #00BFFF;
 }
-
 .logo_style {
     border-radius: 50%;
 }
-
 .center_text {
     text-align: center;
 }
-
-
-
-#section_normal_6 .container::after {
-
+#section_normal_6 .container:after {
     content: "";
     display: block;
     clear: both;
-
 }
 /*****************************************************/
 #section_agency_5  {
