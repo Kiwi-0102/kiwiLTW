@@ -58,14 +58,15 @@ body{
 #section_header_1 .right_socials{
     float: right;
     font-size: 150%;
-    margin-right: -25px;
+    margin-right: -8px;
     padding-bottom: 5px;
 }
+
 #section_header_1 .right_socials ul{
     display: flex;
 }
 #section_header_1 .right_socials ul li{
-    padding-right: 25px;
+    padding-right: 15px;
 }
 #section_header_1 ul li {
     list-style-type: none;
@@ -305,7 +306,7 @@ body{
     margin-bottom: -5px;
 }
 #section_intro_title .one-third.column .light_gray ,.pix_text{
-    padding: 12px 0;
+    padding: 13px 0;
     text-align: center;
     justify-content: center;
     font-size: 15px;
@@ -313,7 +314,7 @@ body{
 }
 #section_intro_title .one-third.column .blue_bg{
     padding: 15px 20px;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: #2dc0e8;
 }
 #section_intro_title .one-third.column .blue_bg span{
@@ -323,7 +324,7 @@ body{
 }
 #section_intro_title .one-third.column .orange_bg{
     padding: 15px 20px;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: #f77825;
 }
 #section_intro_title .one-third.column .orange_bg span{
@@ -345,27 +346,28 @@ body{
     justify-content: center;
     text-align: center;
     height: 390px;
-    width: 390px;
+    width: 370px;
     border: 3px solid #202020;
     background-color: #151515;
 }
 .headtext_style{
-    padding: 30px 0;
+    padding: 35px 0;
 }
 .headtext_style .pix_text{
     font-size: 25px;
     color: #ffffff ;
 }
 .segment.pix_builder_bg{
-    margin: -10px 160px;
+    margin: -15px 150px;
     height: 5px;
-    width: 80px;
+    width: 70px;
     background-color:#2b83ec ;
 }
 .subtext_style{
-    font-size: 18px;
+    font-size: 15px;
     color: darkgray;
-    /*font-weight: 0;*/
+    padding-top: 15px;
+    margin: 20px 50px 32px;
 }
 .contact_st #contact_form {
     display: inline-block;
@@ -373,59 +375,63 @@ body{
 }
 .contact_st input{
     text-align: left;
-    border-radius: 5px;
+    border:  #151515 solid 1px;
+    border-radius: 3px;
     height: 20px;
-    width: 400px;
-    margin: 10px;
+    width: 340px;
+    margin-bottom: 20px;
 }
 .contact_st button{
-    color: #F5F5F5;
-    font-weight: bold;
-    margin: 10px;
-    border-radius: 5px;
+    color: #ffffff;
+    border:  #151515 solid 1px;
+    border-radius: 3px;
     height: 50px;
-    width: 400px;
-    background-color: hsl(211.88deg 84.96% 55.69%);
+    width: 340px;
+    background-color: #2b83ec;
+
 }
 /*******************************************************************/
-/*#section_party_4{*/
-/*    background-color: hsl(0deg 0% 8.24%);*/
-/*    height: 60px;*/
-/*}*/
-/*#section_party_4 .alpha{*/
-/*    color: hsl(223.64deg 7.91% 27.25%);*/
-/*    padding: 20px;*/
-/*    float: left;*/
-/*}*/
-/*#section_party_4 .omega{*/
-/*    float: right;*/
-/*}*/
-/*#section_party_4 .omega .soc_icons.pix_builder_bg{*/
-/*    list-style-type: none;*/
-/*    float: right;*/
-/*    width: auto;*/
-/*}*/
-/*#section_party_4 .omega .soc_icons.pix_builder_bg li{*/
-/*    padding: 10px;*/
-/*    margin-left: 10px;*/
-/*    display: inline-block;*/
-/*    list-style-type: none;*/
-/*}*/
-/*.soc_icons.pix_builder_bg li i{*/
-/*    font-size: 20px;*/
-/*    color: hsl(60deg 1.45% 72.94%);*/
-/*}*/
-/*#section_party_4 .omega .likes_st{*/
-/*    padding: 20px;*/
-/*    float: left;*/
-/*    width: auto;*/
-/*}*/
-/*.rights_st{*/
-/*    color: hsl(223.64deg 7.91% 27.25%);*/
-/*}*/
-/*.pixfort_st{*/
-/*    color: blue;*/
-/*}*/
-/*#section_party_4 .likes_st .pix_text{*/
-/*    color:  hsl(223.64deg 7.91% 27.25%);*/
-/*}*/
+#section_party_4{
+    background-color: #151515;
+    height: 50px;
+}
+#section_party_4 .alpha{
+    color: #f3f3f3;
+    padding: 20px;
+    float: left;
+}
+#section_party_4 .omega{
+    float: right;
+}
+
+#section_party_4 .rights_st{
+    color: #938d86;
+}
+.pixfort_st{
+    color: #2b83ec;
+    font-size: small;
+    font-weight: bold;
+}
+#section_party_4 .omega .likes_st{
+    padding-top: 20px;
+    float: left;
+}
+#section_party_4 .omega .likes_st .pix_text{
+    color: #938d86;
+}
+#section_party_4 .omega .soc_icons.pix_builder_bg{
+    list-style-type: none;
+    float: right;
+    width: auto;
+    font-size: 150%;
+    padding-bottom: 5px;
+    padding-left: -10px ;
+}
+#section_party_4 .omega .soc_icons.pix_builder_bg li{
+    padding-right: 15px;
+    display: inline-block;
+    list-style-type: none;
+}
+#section_party_4 .soc_icons.pix_builder_bg li i{
+    color: #938d86;
+}
